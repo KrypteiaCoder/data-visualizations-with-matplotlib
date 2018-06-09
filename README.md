@@ -19,3 +19,4 @@ ax.set_ylabel('Value')
 fig, ax = plt.subplots(figsize=(30,20))
 plt.suptitle('')
 df.boxplot(column=['Value'], by='Country or Area', ax=ax)
+
